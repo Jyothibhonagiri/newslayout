@@ -1,0 +1,111 @@
+.content{
+    text-align: center;  
+}
+.navbar{
+    width:100%;
+    height:40px;
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration:underline;
+}
+.list{
+    text-align: center;
+}
+.footer{
+    margin-top: 1%;
+    width:100%;
+    height:100vh;
+    background-color:beige;
+}
+.img-container{
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.grid-container{
+    margin-top: 5%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.grid-container:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.media-container{
+    margin-top: 5%;
+    margin-left: 4%;
+    display: flex;   
+}
+.media-container img {
+    margin-right: 1%;
+}
+.footer p{
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.Education{
+    margin-top: 2%;
+    width:100%;
+    height:120vh;
+}
+.cards{
+
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 2%;
+    text-align: center;
+
+}
+.card{
+    width:300px;
+    height:300px;
+    
+}
+#alert{
+    width:100%;
+    height:60px;
+    background-color:rgb(231, 233, 133);
+}
+#message{
+    margin-top: 2px;
+    width:0%;
+    font-size: 25px;
+    transition:2sec;
+    height:30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.banner{
+    display: flex;
+}
+.left-content img{
+    padding-left:4%;
+}
+.sample{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+.sports{
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+    margin-top: 50px;
+ 
+}
+.para p{
+    margin-left: 5%;
+}
